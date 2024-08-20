@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: 'Roboto';
+}
+
+html body {
+    margin: 0px;
+    padding: 0px;
+    background: #F9F9F9;
+}
+
+header {
+    display: block;
+}
+
+.Menu {
+    display: flex;
+    height: 56px;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    padding: 0px 24px 0px 24px;
+
+}
+
+.Left {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 146px;
+    height: 24px;
+    gap: 34px;
+}
+
+.left-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-menu .vector {
+    background-color: black;
+    width: 18px;
+    height: 2px;
+    border-radius: 2px;
+    border: 0px solid #000000
+}
+
+.background-vector {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+.background-vector:hover {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(0, 0, 0,0.1);
+    cursor: pointer;
+}
+
+.Left .logo img{
+    margin-top: 2px;
+    width: 90px;
+    height: 20px;
+}
+
+.Center {
+    display: flex;
+    flex-direction: row nowrap;
+    width: 404px;
+    height: auto;
+    border: 1px 0px 0px 0px;
+}
+
+.Center .rectangle-1 {
+    padding: 0px;
+    width: 348px;
+    height: 40px;
+    border-radius: 1px 0px 0px 0px;
+    border: 1px solid #CCCCCC    
+}
+
+.Center .rectangle-1 input {
+    font-family: 'Roboto';
+    font-size: medium;
+    position: absolute;
+    width: 340px;
+    height: 38px;
+    background-color: transparent;
+    border: none;
+}
+
+.Center .rectangle-2 button {
+    padding: 0px;
+    width: 57px;
+    height: 40px;
+    border: 1px solid transparent;
+    background-color: #F8F8F8;
+    cursor: pointer;
+}
+
+.Center .rectangle-2 {
+    padding: 0px;
+    width: 57px;
+    height: 40px;
+    border: 1px solid #CCCCCC;
+    background-color: #F8F8F8;
+    cursor: pointer;
+}
+
+.Right {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 130px;
+    height: 34px;
+    gap: 24px;
+}
+
+.Right img {
+    width: 24px;
+    height: 24px;
+    padding: 5px 1px 5px 1px;
+}
+
+.Right .avatar {
+    border-radius: 50%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+main .watching-video {
+    margin: 28px 0px 0px 75px;
+}
+
+/*.image {
+background: url("https://s3-alpha-sig.figma.com/img/a2ae/b3a3/bf8a86359993e6be76c05b6d496751cd?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LieuOZpPU9o6eUFFGKyaeq5YXw0MYUu7p~yej1FbiXdUnWR1ubRNEAXF~ZWLSQg32jiZG6-pw4DzYop5eylj9M6LwczDxWMk9-9YUG5RrwKDzBDvKN374vW6kAbqy9iFM2yqFQPOFh7PO2lkTpnENRTxsSIj~IjYI7pgj2jjhFE3qeqpRcz1KA4AqvQmdFearu0COoutPSm43cj1-C01ajYcgIdtecYi3lnQ07zNJHDAXt23TLJoULVmGcInXrt-aljNkRUc1IsxKb-LwpSPngL488o~aWnLU2biaX7yNtZvq~aBgxSkIyzLelpCzfhsAMej347lkwMlaj~weGFU4g__");
+background-size: cover;
+width: 952px;
+height: 537px;
+}*/
+
+.title {
+    display: inline-block;
+}
+
+h3 {
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23.44px;
+    text-align: left;
+    display: inline-block;
+}
+
+.video-actions {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    width: 902px;
+    height: 42px;
+    gap: 42px;
+    align-items: center;
+}
+
+.channel {
+    display: flex;
+    flex-flow: row;
+    gap: 12px;
+}
+
+.channel img {
+    border-radius: 100%;
+}
+
+.channel-infos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.channel-infos h4 {
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0px;
+}
+
+.channel-infos p {
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0px;
+    color: #515151;
+    white-space: nowrap;
+}
+
+.subscribe-button button{
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.41px;
+    color: white;
+    width: 159px;
+    height: 40px;
+    border-radius: 2px 0px 0px 0px;   
+    background-color: #CC0000;
+    border: none;
+    border-radius: 2px;
+}
+
+.video-actions .option span {
+    white-space: nowrap;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.video-actions .option {
+    align-items: center;
+    flex-direction: row;
+    gap: 5px;
+    display: flex;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0px;
+}
+
+.watching-video .video-data h5 {
+    width: 391px;
+    height: 16px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.41px;
+    text-align: left;
+}
+
+.video-data {
+    display: block;
+}
+
+.watching-video .video-description p {
+    white-space: wrap;
+    width: 510px;
+    height: 64px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-align: left;
+    color: #515151;
+}
+
+.video-description {
+    display: block;
+}
+
+.sidebar {
+    display: flex;
+}
+
+.sidebar ul {
+    margin-top: 28px;
+}
+
+.sidebar ul {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 16px;
+}
+
+.sidebar ul li {
+    display: flex;
+}
+
+.sidebar .title-video {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin: 0px 0px 0px 16px;
+}
+
+.sidebar ul li img {
+    width: 160px;
+    height: 90px;
+}
+
+.sidebar h3 {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.41px;
+    text-align: left;
+    margin: 0px;
+
+}
+
+.sidebar span {
+    color: #515151;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+    text-align: left;
+
+}
