@@ -102,7 +102,9 @@ header {
         margin-left: 30px;
         margin-right: 30px;
     }
+}
 
+@media (max-width: 700px) {
     .Center .rectangle-1 input {
         width: 136px;
     }
