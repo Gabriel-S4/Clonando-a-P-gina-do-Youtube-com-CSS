@@ -84,6 +84,9 @@ header {
         margin-left: 30px;
         margin-right: 30px;
     }
+    .Center .rectangle-1 input {
+        width: 200px;
+    }
 }
 
 .Center .rectangle-1 {
