@@ -10,8 +10,17 @@ html body {
     background: #F9F9F9;
 }
 
+html {
+    display: flex;
+    justify-content: center;
+}
+
 header {
-    display: block;
+    width: 1440px;
+}
+
+main {
+    width: 1440px;
 }
 
 .Menu {
@@ -138,11 +147,17 @@ header {
 .Right img {
     width: 24px;
     height: 24px;
-    padding: 5px 1px 5px 1px;
+}
+
+.Right a {
+    display: flex;
+    align-items: center;
 }
 
 .Right .avatar {
     border-radius: 50%;
+    width: 34px;
+    height: 34px;
 }
 
 main {
